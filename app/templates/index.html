@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% block title %}Nakliye Çözümleri | Güvenilir ve Hızlı{% endblock %}
+{% block content %}
+<div class="text-center my-5">
+  <h1 class="display-3 fw-bold text-primary">Nakliye Çözümlerinde Lider</h1>
+  <p class="lead text-secondary">Hızlı, güvenilir ve uygun fiyatlı nakliye hizmetleriyle işinizi bir adım öteye taşıyın.</p>
+  <a href="{{ url_for('contact') }}" class="btn btn-primary btn-lg px-5">Hemen Başlayın</a>
+</div>
+<div class="row mt-5">
+  <div class="col-md-4">
+    <div class="card border-0 shadow-sm">
+      <img src="https://via.placeholder.com/350" class="card-img-top" alt="Hızlı Teslimat">
+      <div class="card-body">
+        <h5 class="card-title">Hızlı Teslimat</h5>
+        <p class="card-text">Gönderileriniz en kısa sürede, güvenle teslim edilir.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card border-0 shadow-sm">
+      <img src="https://via.placeholder.com/350" class="card-img-top" alt="Uygun Fiyatlar">
+      <div class="card-body">
+        <h5 class="card-title">Uygun Fiyatlar</h5>
+        <p class="card-text">Bütçenize uygun, kaliteli nakliye çözümleri sunuyoruz.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="card border-0 shadow-sm">
+      <img src="https://via.placeholder.com/350" class="card-img-top" alt="7/24 Destek">
+      <div class="card-body">
+        <h5 class="card-title">7/24 Destek</h5>
+        <p class="card-text">Her zaman yanınızdayız, sorularınızı yanıtlıyoruz.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="text-center mt-5">
+  <h2 class="fw-bold text-primary">Neden Bizi Seçmelisiniz?</h2>
+  <p class="lead text-secondary">İşinizi büyütmek için doğru nakliye ortağına ihtiyacınız var. Biz, size özel çözümler sunuyoruz.</p>
+  <a href="{{ url_for('contact') }}" class="btn btn-outline-primary btn-lg">Ücretsiz Deneyin</a>
+</div>
+{% endblock %}
